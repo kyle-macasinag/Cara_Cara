@@ -32,11 +32,18 @@
     background-color: rgb(225, 112, 19);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.learn_more {
+    color: rgb(225, 112, 19);
+    text-decoration-line: underline;
+    line-height: 3px;
+    
 }
