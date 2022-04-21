@@ -1,0 +1,30 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainImage {
+    margin-top: 100px;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: rgb(225, 112, 19);
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+
