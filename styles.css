@@ -16,6 +16,15 @@
     text-decoration: none;
 }
 
+.navbar span {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .mainImage {
     margin-top: 100px;
 }
@@ -25,7 +34,16 @@
     background-color: rgb(225, 112, 19);
     bottom: 0;
     width: 100%;
-    height: 75px;
+    height: 100px;
+}
+
+.footer span {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .add_to_cart {
