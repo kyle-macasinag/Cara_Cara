@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Cara Cara</title>
 </head>
 <body>
-    <header>
-        <nav>
-            span>
-                <a href="">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">PRODUCTS</a>
-                <a href="">CONTACTS</a>
+    <header id="home">
+        <nav class="navbar">
+            <span>
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#product">PRODUCTS</a>
+                <a href="#contact">CONTACTS</a>
             </span>
-            span>
+            <span>
                 CARA
             <img src="./assets/icons8-pottery-96.png" alt="Company logo" style="height: 20px;"> 
                 CARA
@@ -28,13 +29,15 @@
             </span>
 
         </nav>
-        <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Clay pot" style="width:1000px;">
+        <div class="mainImage">
+            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Clay pot" style="width:100%;">
+        </div>
     </header>
     <main>
         <nav>
             <div>
                 <label>
-                    <strong>ABOUT US</strong>
+                    <strong id="about">ABOUT US</strong>
                     <hr>
                 </label>
             </div>
@@ -42,23 +45,45 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Neque egestas congue quisque egestas diam in arcu. In nisl nisi scelerisque eu ultrices vitae auctor eu augue.<br> Sit amet tellus cras adipiscing enim eu turpis egestas. Felis bibendum ut tristique et egestas quis ipsum suspendisse.<br> Lobortis scelerisque fermentum dui faucibus in ornare. Interdum varius sit amet mattis vulputate enim nulla.</label>
             <div>
             <div>
-                <img src ="assets/Cylinder_unglazed3_2048x2048.jpg" alt="Plant in a pot" style="height: 300px;">
+                <img src ="assets/Cylinder_unglazed3_2048x2048.jpg" alt="Plant in a pot" style="height: 300px; float: right;">
             </div>
             <div>
                 <p>Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue.<br> Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat.<br> In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis.<br> Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Neque egestas congue quisque egestas diam in arcu. In nisl nisi scelerisque eu ultrices vitae auctor eu augue.<br> Sit amet tellus cras adipiscing enim eu turpis egestas. Felis bibendum ut tristique et egestas quis ipsum suspendisse.<br> Lobortis scelerisque fermentum dui faucibus in ornare. Interdum varius sit amet mattis vulputate enim nulla.</p>
             </div>
             <div>
-                <img src ="assets/Vase_Dame_2048x2048.jpg" alt="Other plant in a pot" style="height: 400px;">
+                <img src ="assets/Vase_Dame_2048x2048.jpg" alt="Other plant in a pot" style="height: 400px; float: left;">
             </div>
             <div>
                 <label>
-                    <strong>OUR PRODUCTS</strong>
+                    <strong id="product">OUR PRODUCTS</strong>
                 </label>
             </div>
         </nav>
     </main>
-    <footer>
+
+    <footer class="footer">
+        <nav class="center">
+            <span style="float: left; margin-left: 10%;">
+                <img src="./assets/icons8-youtube-96.png" alt="link to youtube" style="height: 30px;">
+                <img src="./assets/icons8-facebook-96 (1).png" alt="link to facebook" style="height: 30px;">
+            </span>
+            <span>
+                CARA
+                <img src="./assets/icons8-pottery-96 (1).png" alt="alt company logo" style="height: 30px;">
+                CARA
+            </span>
+            <span style="float: right; margin-right: 10%;">
+                <img src="./assets/icons8-twitter-96.png" alt="link to twitter" style="height: 30px;">
+                <img src="./assets/icons8-instagram-96.png" alt="link to instagram" style="height: 30px;">
+            </span>
+        </nav>
+        <span style="font-size: 10px;">
+            <p>Pretium nibh ipsum consequat nisl vel pretium.</p>
+            <p>Amet tellus cras adipiscing enim eu turpis.</p>
+            <p>©Copyright 2015 - 2020</p>
+        </span>
+        
     </footer>
     
 </body>
