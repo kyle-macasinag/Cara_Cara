@@ -71,11 +71,67 @@
     background-color: rgb(225, 112, 19);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    position: relative;
+    left: 150px;
+    bottom: 20px
+}
+
+.learn_more {
+    color: rgb(225, 112, 19);
+    text-decoration-line: underline;
+    line-height: 3px;
+    
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.paragraph_1 {
+    margin: 50px;
+    position:relative;
+    left: 200px;
+}
+
+.flower_in_a_vase {
+    position: relative;
+    left: 100px;
+    bottom: 30px
+}
+
+.paragraph_2 {
+    position: relative;
+    left: 400px;
+    bottom: 400px
+}
+
+.paragraph_3 {
+    position: relative;
+    left: 400px;
+    bottom: 400px
+}
+
+.dry_plant_in_a_vase {
+    position: relative;
+    left: 730px;
+    bottom: 750px;
+}
+
+.about_us {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+
 }
